@@ -15,7 +15,7 @@ app.get('/produkty', (req, res) => {
 })
 
 app.get('/zamowienia', (req, res) => {
-  res.send('Getting orders...')
+  res.send('Pobieranie zamowien...')
 })
 
 app.listen(port, () => {
