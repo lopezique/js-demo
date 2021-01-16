@@ -7,15 +7,15 @@ app.get('/', (req, res) => {
 })
 
 app.get('/users', (req, res) => {
-  res.send('Getting users...')
+  res.send('Retrieving users...')
 })
 
 app.get('/products', (req, res) => {
-  res.send('Getting products...')
+  res.send('Retrieving products...')
 })
 
 app.get('/orders', (req, res) => {
-  res.send('Getting orders...')
+  res.send('Retrieving orders...')
 })
 
 app.listen(port, () => {
