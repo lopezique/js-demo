@@ -6,6 +6,14 @@ app.get('/', (req, res) => {
   res.send('Hello Wonderful World!')
 })
 
+app.get('/users', (req, res) => {
+  res.send('Getting users...')
+})
+
+app.get('/products', (req, res) => {
+  res.send('Getting products...')
+})
+
 app.listen(port, () => {
   console.log(`Example app listening at http://localhost:${port}`)
 })
