@@ -6,15 +6,15 @@ app.get('/', (req, res) => {
   res.send('Hello Wonderful World!')
 })
 
-app.get('/users', (req, res) => {
+app.get('/uzytkownicy', (req, res) => {
   res.send('Retrieving users...')
 })
 
-app.get('/products', (req, res) => {
+app.get('/produkty', (req, res) => {
   res.send('Retrieving products...')
 })
 
-app.get('/orders', (req, res) => {
+app.get('/zamowienia', (req, res) => {
   res.send('Retrieve orders...')
 })
 
